@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF45E2AF18BE06FD0037F4A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF45E2AE18BE06FD0037F4A1 /* Foundation.framework */; };
+		DF45E2B118BE06FD0037F4A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF45E2B018BE06FD0037F4A1 /* CoreGraphics.framework */; };
+		DF45E2B318BE06FD0037F4A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF45E2B218BE06FD0037F4A1 /* UIKit.framework */; };
+		DF45E2B918BE06FD0037F4A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF45E2B718BE06FD0037F4A1 /* InfoPlist.strings */; };
+		DF45E2BB18BE06FD0037F4A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF45E2BA18BE06FD0037F4A1 /* main.m */; };
+		DF45E2BF18BE06FD0037F4A1 /* SFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF45E2BE18BE06FD0037F4A1 /* SFAppDelegate.m */; };
+		DF45E2C218BE06FD0037F4A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF45E2C018BE06FD0037F4A1 /* Main.storyboard */; };
+		DF45E2C518BE06FD0037F4A1 /* SFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF45E2C418BE06FD0037F4A1 /* SFViewController.m */; };
+		DF45E2C718BE06FD0037F4A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF45E2C618BE06FD0037F4A1 /* Images.xcassets */; };
+		DF45E2CE18BE06FD0037F4A1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF45E2CD18BE06FD0037F4A1 /* XCTest.framework */; };
+		DF45E2CF18BE06FD0037F4A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF45E2AE18BE06FD0037F4A1 /* Foundation.framework */; };
+		DF45E2D018BE06FD0037F4A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF45E2B218BE06FD0037F4A1 /* UIKit.framework */; };
+		DF45E2D818BE06FD0037F4A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF45E2D618BE06FD0037F4A1 /* InfoPlist.strings */; };
+		DF45E2DA18BE06FD0037F4A1 /* SpfZQNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF45E2D918BE06FD0037F4A1 /* SpfZQNewsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF45E2D118BE06FD0037F4A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF45E2A318BE06FD0037F4A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF45E2AA18BE06FD0037F4A1;
+			remoteInfo = SpfZQNews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF45E2AB18BE06FD0037F4A1 /* SpfZQNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpfZQNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF45E2AE18BE06FD0037F4A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DF45E2B018BE06FD0037F4A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DF45E2B218BE06FD0037F4A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DF45E2B618BE06FD0037F4A1 /* SpfZQNews-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpfZQNews-Info.plist"; sourceTree = "<group>"; };
+		DF45E2B818BE06FD0037F4A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF45E2BA18BE06FD0037F4A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF45E2BC18BE06FD0037F4A1 /* SpfZQNews-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpfZQNews-Prefix.pch"; sourceTree = "<group>"; };
+		DF45E2BD18BE06FD0037F4A1 /* SFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFAppDelegate.h; sourceTree = "<group>"; };
+		DF45E2BE18BE06FD0037F4A1 /* SFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFAppDelegate.m; sourceTree = "<group>"; };
+		DF45E2C118BE06FD0037F4A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF45E2C318BE06FD0037F4A1 /* SFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFViewController.h; sourceTree = "<group>"; };
+		DF45E2C418BE06FD0037F4A1 /* SFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFViewController.m; sourceTree = "<group>"; };
+		DF45E2C618BE06FD0037F4A1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DF45E2CC18BE06FD0037F4A1 /* SpfZQNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpfZQNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF45E2CD18BE06FD0037F4A1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DF45E2D518BE06FD0037F4A1 /* SpfZQNewsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpfZQNewsTests-Info.plist"; sourceTree = "<group>"; };
+		DF45E2D718BE06FD0037F4A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF45E2D918BE06FD0037F4A1 /* SpfZQNewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpfZQNewsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF45E2A818BE06FD0037F4A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF45E2B118BE06FD0037F4A1 /* CoreGraphics.framework in Frameworks */,
+				DF45E2B318BE06FD0037F4A1 /* UIKit.framework in Frameworks */,
+				DF45E2AF18BE06FD0037F4A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF45E2C918BE06FD0037F4A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF45E2CE18BE06FD0037F4A1 /* XCTest.framework in Frameworks */,
+				DF45E2D018BE06FD0037F4A1 /* UIKit.framework in Frameworks */,
+				DF45E2CF18BE06FD0037F4A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF45E2A218BE06FD0037F4A1 = {
+			isa = PBXGroup;
+			children = (
+				DF45E2B418BE06FD0037F4A1 /* SpfZQNews */,
+				DF45E2D318BE06FD0037F4A1 /* SpfZQNewsTests */,
+				DF45E2AD18BE06FD0037F4A1 /* Frameworks */,
+				DF45E2AC18BE06FD0037F4A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF45E2AC18BE06FD0037F4A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF45E2AB18BE06FD0037F4A1 /* SpfZQNews.app */,
+				DF45E2CC18BE06FD0037F4A1 /* SpfZQNewsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF45E2AD18BE06FD0037F4A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF45E2AE18BE06FD0037F4A1 /* Foundation.framework */,
+				DF45E2B018BE06FD0037F4A1 /* CoreGraphics.framework */,
+				DF45E2B218BE06FD0037F4A1 /* UIKit.framework */,
+				DF45E2CD18BE06FD0037F4A1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF45E2B418BE06FD0037F4A1 /* SpfZQNews */ = {
+			isa = PBXGroup;
+			children = (
+				DF45E2BD18BE06FD0037F4A1 /* SFAppDelegate.h */,
+				DF45E2BE18BE06FD0037F4A1 /* SFAppDelegate.m */,
+				DF45E2C018BE06FD0037F4A1 /* Main.storyboard */,
+				DF45E2C318BE06FD0037F4A1 /* SFViewController.h */,
+				DF45E2C418BE06FD0037F4A1 /* SFViewController.m */,
+				DF45E2C618BE06FD0037F4A1 /* Images.xcassets */,
+				DF45E2B518BE06FD0037F4A1 /* Supporting Files */,
+			);
+			path = SpfZQNews;
+			sourceTree = "<group>";
+		};
+		DF45E2B518BE06FD0037F4A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF45E2B618BE06FD0037F4A1 /* SpfZQNews-Info.plist */,
+				DF45E2B718BE06FD0037F4A1 /* InfoPlist.strings */,
+				DF45E2BA18BE06FD0037F4A1 /* main.m */,
+				DF45E2BC18BE06FD0037F4A1 /* SpfZQNews-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF45E2D318BE06FD0037F4A1 /* SpfZQNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF45E2D918BE06FD0037F4A1 /* SpfZQNewsTests.m */,
+				DF45E2D418BE06FD0037F4A1 /* Supporting Files */,
+			);
+			path = SpfZQNewsTests;
+			sourceTree = "<group>";
+		};
+		DF45E2D418BE06FD0037F4A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF45E2D518BE06FD0037F4A1 /* SpfZQNewsTests-Info.plist */,
+				DF45E2D618BE06FD0037F4A1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF45E2AA18BE06FD0037F4A1 /* SpfZQNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF45E2DD18BE06FD0037F4A1 /* Build configuration list for PBXNativeTarget "SpfZQNews" */;
+			buildPhases = (
+				DF45E2A718BE06FD0037F4A1 /* Sources */,
+				DF45E2A818BE06FD0037F4A1 /* Frameworks */,
+				DF45E2A918BE06FD0037F4A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpfZQNews;
+			productName = SpfZQNews;
+			productReference = DF45E2AB18BE06FD0037F4A1 /* SpfZQNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF45E2CB18BE06FD0037F4A1 /* SpfZQNewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF45E2E018BE06FD0037F4A1 /* Build configuration list for PBXNativeTarget "SpfZQNewsTests" */;
+			buildPhases = (
+				DF45E2C818BE06FD0037F4A1 /* Sources */,
+				DF45E2C918BE06FD0037F4A1 /* Frameworks */,
+				DF45E2CA18BE06FD0037F4A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF45E2D218BE06FD0037F4A1 /* PBXTargetDependency */,
+			);
+			name = SpfZQNewsTests;
+			productName = SpfZQNewsTests;
+			productReference = DF45E2CC18BE06FD0037F4A1 /* SpfZQNewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF45E2A318BE06FD0037F4A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SF;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "孙培峰";
+				TargetAttributes = {
+					DF45E2CB18BE06FD0037F4A1 = {
+						TestTargetID = DF45E2AA18BE06FD0037F4A1;
+					};
+				};
+			};
+			buildConfigurationList = DF45E2A618BE06FD0037F4A1 /* Build configuration list for PBXProject "SpfZQNews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF45E2A218BE06FD0037F4A1;
+			productRefGroup = DF45E2AC18BE06FD0037F4A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF45E2AA18BE06FD0037F4A1 /* SpfZQNews */,
+				DF45E2CB18BE06FD0037F4A1 /* SpfZQNewsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF45E2A918BE06FD0037F4A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF45E2C718BE06FD0037F4A1 /* Images.xcassets in Resources */,
+				DF45E2B918BE06FD0037F4A1 /* InfoPlist.strings in Resources */,
+				DF45E2C218BE06FD0037F4A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF45E2CA18BE06FD0037F4A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF45E2D818BE06FD0037F4A1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF45E2A718BE06FD0037F4A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF45E2BB18BE06FD0037F4A1 /* main.m in Sources */,
+				DF45E2C518BE06FD0037F4A1 /* SFViewController.m in Sources */,
+				DF45E2BF18BE06FD0037F4A1 /* SFAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF45E2C818BE06FD0037F4A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF45E2DA18BE06FD0037F4A1 /* SpfZQNewsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF45E2D218BE06FD0037F4A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF45E2AA18BE06FD0037F4A1 /* SpfZQNews */;
+			targetProxy = DF45E2D118BE06FD0037F4A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF45E2B718BE06FD0037F4A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF45E2B818BE06FD0037F4A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DF45E2C018BE06FD0037F4A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF45E2C118BE06FD0037F4A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF45E2D618BE06FD0037F4A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF45E2D718BE06FD0037F4A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF45E2DB18BE06FD0037F4A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF45E2DC18BE06FD0037F4A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF45E2DE18BE06FD0037F4A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpfZQNews/SpfZQNews-Prefix.pch";
+				INFOPLIST_FILE = "SpfZQNews/SpfZQNews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DF45E2DF18BE06FD0037F4A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpfZQNews/SpfZQNews-Prefix.pch";
+				INFOPLIST_FILE = "SpfZQNews/SpfZQNews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DF45E2E118BE06FD0037F4A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpfZQNews.app/SpfZQNews";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpfZQNews/SpfZQNews-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SpfZQNewsTests/SpfZQNewsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DF45E2E218BE06FD0037F4A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpfZQNews.app/SpfZQNews";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpfZQNews/SpfZQNews-Prefix.pch";
+				INFOPLIST_FILE = "SpfZQNewsTests/SpfZQNewsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF45E2A618BE06FD0037F4A1 /* Build configuration list for PBXProject "SpfZQNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF45E2DB18BE06FD0037F4A1 /* Debug */,
+				DF45E2DC18BE06FD0037F4A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF45E2DD18BE06FD0037F4A1 /* Build configuration list for PBXNativeTarget "SpfZQNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF45E2DE18BE06FD0037F4A1 /* Debug */,
+				DF45E2DF18BE06FD0037F4A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF45E2E018BE06FD0037F4A1 /* Build configuration list for PBXNativeTarget "SpfZQNewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF45E2E118BE06FD0037F4A1 /* Debug */,
+				DF45E2E218BE06FD0037F4A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF45E2A318BE06FD0037F4A1 /* Project object */;
+}
