@@ -10,4 +10,6 @@
 
 @interface SFViewController : UIViewController
 
+@property (strong, nonatomic) NSString *labelTitle;
+
 @end

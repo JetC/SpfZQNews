@@ -7,14 +7,11 @@
 //
 
 #import "SFAppDelegate.h"
+#import "GuGuSegmentNaviViewController.h"
+#import "SFViewController.h"
+
 
 @implementation SFAppDelegate
-
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    // Override point for customization after application launch.
-    return YES;
-}
 							
 - (void)applicationWillResignActive:(UIApplication *)application
 {
@@ -42,5 +39,30 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    NSArray *titleArray = [NSArray arrayWithObjects:@"轻松一刻",@"头条",@"北京",@"房产",@"移动互联",@"财经",@"科技",@"游戏",@"历史",@"军事",@"大满贯", nil];
+    
+    NSMutableArray *controllerArray = [[NSMutableArray alloc]init];
+    
+    //对应于每一个标题都创建一个VC，将标题添加进各个VC的controllerArray中
+    for (NSString* title in titleArray)
+    {
+        SFViewController *vc = [[SFViewController alloc]init];
+        vc.labelTitle = [title stringByAppendingString:@" View Controller"];
+        
+        [controllerArray addObject:vc];
+    }
+    
+    
+    GuGuSegmentNaviViewController *controller = [[ GuGuSegmentNaviViewController alloc]initWithItems:titleArray andControllers:controllerArray];
+    
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:controller];
+    
+    self.window.rootViewController = nav;
+    return YES;
+}
+
 
 @end

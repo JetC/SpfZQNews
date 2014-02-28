@@ -21,6 +21,9 @@
 		DF45E2D018BE06FD0037F4A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF45E2B218BE06FD0037F4A1 /* UIKit.framework */; };
 		DF45E2D818BE06FD0037F4A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF45E2D618BE06FD0037F4A1 /* InfoPlist.strings */; };
 		DF45E2DA18BE06FD0037F4A1 /* SpfZQNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF45E2D918BE06FD0037F4A1 /* SpfZQNewsTests.m */; };
+		DF45E2EC18BE0FE80037F4A1 /* GuGuLandscapeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF45E2E718BE0FE80037F4A1 /* GuGuLandscapeTableView.m */; };
+		DF45E2ED18BE0FE80037F4A1 /* GuGuSegmentBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF45E2E918BE0FE80037F4A1 /* GuGuSegmentBarView.m */; };
+		DF45E2EE18BE0FE80037F4A1 /* GuGuSegmentNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF45E2EB18BE0FE80037F4A1 /* GuGuSegmentNaviViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		DF45E2D518BE06FD0037F4A1 /* SpfZQNewsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpfZQNewsTests-Info.plist"; sourceTree = "<group>"; };
 		DF45E2D718BE06FD0037F4A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DF45E2D918BE06FD0037F4A1 /* SpfZQNewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpfZQNewsTests.m; sourceTree = "<group>"; };
+		DF45E2E618BE0FE80037F4A1 /* GuGuLandscapeTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuGuLandscapeTableView.h; sourceTree = "<group>"; };
+		DF45E2E718BE0FE80037F4A1 /* GuGuLandscapeTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuGuLandscapeTableView.m; sourceTree = "<group>"; };
+		DF45E2E818BE0FE80037F4A1 /* GuGuSegmentBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuGuSegmentBarView.h; sourceTree = "<group>"; };
+		DF45E2E918BE0FE80037F4A1 /* GuGuSegmentBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuGuSegmentBarView.m; sourceTree = "<group>"; };
+		DF45E2EA18BE0FE80037F4A1 /* GuGuSegmentNaviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuGuSegmentNaviViewController.h; sourceTree = "<group>"; };
+		DF45E2EB18BE0FE80037F4A1 /* GuGuSegmentNaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuGuSegmentNaviViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +126,7 @@
 				DF45E2C018BE06FD0037F4A1 /* Main.storyboard */,
 				DF45E2C318BE06FD0037F4A1 /* SFViewController.h */,
 				DF45E2C418BE06FD0037F4A1 /* SFViewController.m */,
+				DF45E2EF18BE0FF00037F4A1 /* GuGuViewSwitching */,
 				DF45E2C618BE06FD0037F4A1 /* Images.xcassets */,
 				DF45E2B518BE06FD0037F4A1 /* Supporting Files */,
 			);
@@ -150,6 +160,19 @@
 				DF45E2D618BE06FD0037F4A1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF45E2EF18BE0FF00037F4A1 /* GuGuViewSwitching */ = {
+			isa = PBXGroup;
+			children = (
+				DF45E2E618BE0FE80037F4A1 /* GuGuLandscapeTableView.h */,
+				DF45E2E718BE0FE80037F4A1 /* GuGuLandscapeTableView.m */,
+				DF45E2E818BE0FE80037F4A1 /* GuGuSegmentBarView.h */,
+				DF45E2E918BE0FE80037F4A1 /* GuGuSegmentBarView.m */,
+				DF45E2EA18BE0FE80037F4A1 /* GuGuSegmentNaviViewController.h */,
+				DF45E2EB18BE0FE80037F4A1 /* GuGuSegmentNaviViewController.m */,
+			);
+			name = GuGuViewSwitching;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +274,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF45E2BB18BE06FD0037F4A1 /* main.m in Sources */,
+				DF45E2ED18BE0FE80037F4A1 /* GuGuSegmentBarView.m in Sources */,
+				DF45E2EC18BE0FE80037F4A1 /* GuGuLandscapeTableView.m in Sources */,
+				DF45E2EE18BE0FE80037F4A1 /* GuGuSegmentNaviViewController.m in Sources */,
 				DF45E2C518BE06FD0037F4A1 /* SFViewController.m in Sources */,
 				DF45E2BF18BE06FD0037F4A1 /* SFAppDelegate.m in Sources */,
 			);
